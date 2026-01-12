@@ -1,0 +1,39 @@
+======================================================================
+CyberMARL STRATEGY ANALYSIS REPORT
+======================================================================
+
+1. ACTION PREFERENCES
+----------------------------------------------------------------------
+Red Agent Strategy:
+  EXPLOIT        :   29 states ( 60.4%)
+  MOVE           :   18 states ( 37.5%)
+  WAIT           :    1 states (  2.1%)
+
+Blue Agent Strategy:
+  MONITOR        :   32 states ( 66.7%)
+  QUARANTINE     :    7 states ( 14.6%)
+  PATCH          :    9 states ( 18.8%)
+
+2. Q-VALUE STATISTICS
+----------------------------------------------------------------------
+Red Agent:
+  Mean Q-value:      -3.08
+  Std Deviation:      6.55
+  Min Q-value:      -22.77
+  Max Q-value:       15.33
+  Median:             0.00
+
+Blue Agent:
+  Mean Q-value:       0.42
+  Std Deviation:      5.51
+  Min Q-value:      -16.95
+  Max Q-value:       21.27
+  Median:             0.00
+
+3. CRITICAL DECISION STATES
+----------------------------------------------------------------------
+States with highest strategic importance (variance):
+Red Agent critical states: [33, 23, 11, 8, 2]
+Blue Agent critical states: [41, 2, 39, 8, 14]
+
+======================================================================
